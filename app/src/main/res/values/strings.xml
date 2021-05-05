@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <!--Start Menu Strings-->
+    <string name="txt_game_name">TicTacToe</string>
+    <string name="btn_start">Start Game</string>
+    <string name="btn_how_play">How to Play</string>
+    <string name="btn_website">Wiki</string>
+
+    <!--Game Strings-->
+    <string name="txt_player_one"><b>X</b> Wins: </string>
+    <string name="txt_player_two"><b>O</b> Wins: </string>
+    <string name="txt_game_tic">TicTacToe</string>
+
+    <!--How to Play Strings-->
+    <string name="txt_how_play">How To Play</string>
+    <string name="txt_tic">Tic Tac Toe</string>
+    <string name="txt_x"><b>Player One</b> will be assigned to <b>X</b>s</string>
+    <string name="txt_o"><b>Player Two</b> will be assigned to <b>O</b>s</string>
+    <string name="txt_placement">To place an X or an O, just click in the corresponding square you want to place your piece.</string>
+    <string name="txt_continue">Continue taking turns until someone gets three in a row of their game piece horizontally, diagonally or vertically.</string>
+    <string name="txt_win">If all nine square are filled with no one having three in a row, it is a draw.</string>
+    <string name="btn_back">Back</string>
+
+    <!--Win Screen Strings-->
+    <string name="txt_wins">Wins</string>
+    <string name="txt_x_wins"><b>X</b> Wins: </string>
+    <string name="txt_o_wins"><b>O</b> Wins: </string>
+    <string name="btn_play_again">Play Again</string>
+    <string name="btn_main_menu">Main Menu</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="128sp"
+    android:background="@color/backgroundColor"
+    tools:context=".StartGameMenu">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64sp"
+        android:text="@string/txt_game_name"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24sp"
+        android:onClick="startGameClick"
+        android:text="@string/btn_start"
+        android:textStyle="bold"
+        android:textColor="@color/buttonTextColor"
+        android:background="@drawable/rounded_button"
+        android:padding="8sp"/>
+
+    <Button
+        android:id="@+id/howToPlayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24sp"
+        android:onClick="howPlayClick"
+        android:text="@string/btn_how_play"
+        android:textStyle="bold"
+        android:textColor="@color/buttonTextColor"
+        android:background="@drawable/rounded_button"
+        android:padding="8sp"/>
+
+    <Button
+        android:id="@+id/websiteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="websiteClick"
+        android:text="@string/btn_website"
+        android:textStyle="bold"
+        android:textColor="@color/buttonTextColor"
+        android:background="@drawable/rounded_button"
+        android:padding="8sp"/>
+
+</LinearLayout>
